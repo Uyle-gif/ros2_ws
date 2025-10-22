@@ -1,1 +1,19 @@
-/home/uylegia/ros2_ws/src/my_car_control/config/teleop_twist_joy.yaml
+teleop_twist_joy:
+  ros__parameters:
+    # Mapping đúng theo tay PS4 
+    axis_linear:
+      x: 1              # LY = axes[1] -> linear.x
+    scale_linear:
+      x: 5.0            # m/s (tối đa)
+
+    axis_angular:
+      yaw: 3           # LX = axes[0] -> angular.z (
+    scale_angular:
+      yaw: -30.0          # rad/s (tối đa)
+
+    # Deadman: giữ R1 mới cho phép xuất lệnh
+    enable_button: 5     # R1 = buttons[5]
+    require_enable_button: true
+
+
+    enable_turbo_button: -1

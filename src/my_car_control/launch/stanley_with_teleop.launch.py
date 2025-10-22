@@ -26,7 +26,7 @@ def generate_launch_description():
             executable='teleop_node',
             name='teleop_twist_joy',
             parameters=[teleop_cfg],
-            remappings=[('/cmd_vel', '/cmd_vel/manual')],
+            remappings=[('/cmd_vel', '/cmd_vel/manual_raw')],
             output='screen'
 
             
@@ -51,5 +51,13 @@ def generate_launch_description():
             remappings=[('/cmd_vel_out', '/cmd_vel')],
             output='screen'
         ),
+
+        Node(
+            package='my_car_control',
+            executable='smooth_cmd_vel',
+            name='smooth_cmd_vel',
+            output='screen'
+        ),
+
 
     ])

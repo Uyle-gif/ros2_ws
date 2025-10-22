@@ -33,6 +33,18 @@ ament_target_dependencies(stanley_controller
   ament_index_cpp
 )
 
+add_executable(smooth_cmd_vel src/smooth_cmd_vel.cpp)
+ament_target_dependencies(smooth_cmd_vel rclcpp geometry_msgs)
+install(TARGETS
+  smooth_cmd_vel
+  DESTINATION lib/${PROJECT_NAME})
+
+
+
+
+
+
+
 target_include_directories(stanley_controller PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
@@ -54,7 +66,7 @@ install(FILES path.csv
   DESTINATION share/${PROJECT_NAME})
 
 # 2. Nếu có thư mục launch/ hoặc config/
-# (ví dụ bạn định thêm file .launch.py hoặc .yaml)
+
 install(DIRECTORY
   launch config
   DESTINATION share/${PROJECT_NAME}

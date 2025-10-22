@@ -1,6 +1,7 @@
 /home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/uninstall.dir
 /home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/my_car_control_uninstall.dir
 /home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/stanley_controller.dir
+/home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/smooth_cmd_vel.dir
 /home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/test.dir
 /home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/edit_cache.dir
 /home/uylegia/ros2_ws/build/my_car_control/CMakeFiles/rebuild_cache.dir

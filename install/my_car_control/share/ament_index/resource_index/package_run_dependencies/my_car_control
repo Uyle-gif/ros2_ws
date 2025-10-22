@@ -1,1 +1,1 @@
-/home/uylegia/ros2_ws/build/my_car_control/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_car_control
+rclcpp;geometry_msgs;nav_msgs;tf2;tf2_ros;ament_index_cpp;tf2_geometry_msgs;std_msgs;sensor_msgs;joy;teleop_twist_joy;twist_mux;nav2_velocity_smoother;ament_lint_auto;ament_lint_common

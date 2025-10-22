@@ -1,7 +1,0 @@
-[01m[K/home/uylegia/ros2_ws/src/my_car_control/src/stanley_controller.cpp:[m[K In member function ‘[01m[Kvoid StanleyControllerNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/uylegia/ros2_ws/src/my_car_control/src/stanley_controller.cpp:63:23:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
-   63 |     double yaw = tf2::[01;31m[KgetYaw[m[K(q);
-      |                       [01;31m[K^~~~~~[m[K
-gmake[2]: *** [CMakeFiles/stanley_controller.dir/build.make:76: CMakeFiles/stanley_controller.dir/src/stanley_controller.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stanley_controller.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

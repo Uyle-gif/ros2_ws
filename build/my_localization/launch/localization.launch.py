@@ -1,1 +1,0 @@
-/home/uylegia/ros2_ws/src/my_localization/launch/localization.launch.py

@@ -210,6 +210,43 @@ stanley_controller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stanley_controller.dir/build.make CMakeFiles/stanley_controller.dir/build
 .PHONY : stanley_controller/fast
 
+#=============================================================================
+# Target rules for targets named smooth_cmd_vel
+
+# Build rule for target.
+smooth_cmd_vel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smooth_cmd_vel
+.PHONY : smooth_cmd_vel
+
+# fast build rule for target.
+smooth_cmd_vel/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smooth_cmd_vel.dir/build.make CMakeFiles/smooth_cmd_vel.dir/build
+.PHONY : smooth_cmd_vel/fast
+
+src/smooth_cmd_vel.o: src/smooth_cmd_vel.cpp.o
+.PHONY : src/smooth_cmd_vel.o
+
+# target to build an object file
+src/smooth_cmd_vel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smooth_cmd_vel.dir/build.make CMakeFiles/smooth_cmd_vel.dir/src/smooth_cmd_vel.cpp.o
+.PHONY : src/smooth_cmd_vel.cpp.o
+
+src/smooth_cmd_vel.i: src/smooth_cmd_vel.cpp.i
+.PHONY : src/smooth_cmd_vel.i
+
+# target to preprocess a source file
+src/smooth_cmd_vel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smooth_cmd_vel.dir/build.make CMakeFiles/smooth_cmd_vel.dir/src/smooth_cmd_vel.cpp.i
+.PHONY : src/smooth_cmd_vel.cpp.i
+
+src/smooth_cmd_vel.s: src/smooth_cmd_vel.cpp.s
+.PHONY : src/smooth_cmd_vel.s
+
+# target to generate assembly for a file
+src/smooth_cmd_vel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/smooth_cmd_vel.dir/build.make CMakeFiles/smooth_cmd_vel.dir/src/smooth_cmd_vel.cpp.s
+.PHONY : src/smooth_cmd_vel.cpp.s
+
 src/stanley_controller.o: src/stanley_controller.cpp.o
 .PHONY : src/stanley_controller.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... my_car_control_uninstall"
 	@echo "... uninstall"
+	@echo "... smooth_cmd_vel"
 	@echo "... stanley_controller"
+	@echo "... src/smooth_cmd_vel.o"
+	@echo "... src/smooth_cmd_vel.i"
+	@echo "... src/smooth_cmd_vel.s"
 	@echo "... src/stanley_controller.o"
 	@echo "... src/stanley_controller.i"
 	@echo "... src/stanley_controller.s"
