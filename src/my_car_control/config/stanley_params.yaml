@@ -1,0 +1,7 @@
+stanley_controller:
+  ros__parameters:
+    path_file: "path.csv"
+    K: 1.0
+    L: 0.5
+    desired_speed: 1.0
+    max_steer_deg: 30.0

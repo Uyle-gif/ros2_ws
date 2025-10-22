@@ -1,0 +1,7 @@
+nav2_velocity_smoother:
+  ros__parameters:
+    smoothing_frequency: 20.0
+    accel_lim_x: 0.7
+    decel_lim_x: -0.7
+    accel_lim_theta: 2.0
+    decel_lim_theta: -2.0

@@ -1,0 +1,1 @@
+/home/uylegia/ros2_ws/build/my_gps_driver/ament_cmake_environment_hooks/local_setup.bash

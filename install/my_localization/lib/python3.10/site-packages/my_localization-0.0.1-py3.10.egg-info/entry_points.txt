@@ -1,0 +1,3 @@
+[console_scripts]
+fake_gps = my_localization.fake_gps:main
+fake_imu = my_localization.fake_imu:main

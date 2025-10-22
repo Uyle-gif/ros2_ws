@@ -1,0 +1,42 @@
+[0.557s] Invoking command in '/home/uylegia/ros2_ws/build/my_localization': PYTHONPATH=/home/uylegia/ros2_ws/build/my_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/uylegia/ros2_ws/build/my_localization/build
+[0.762s] running develop
+[0.905s] Removing /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my-localization.egg-link (link to .)
+[0.930s] Invoked command in '/home/uylegia/ros2_ws/build/my_localization' returned '0': PYTHONPATH=/home/uylegia/ros2_ws/build/my_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/uylegia/ros2_ws/build/my_localization/build
+[0.932s] Invoking command in '/home/uylegia/ros2_ws/src/my_localization': PYTHONPATH=/home/uylegia/ros2_ws/build/my_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_localization build --build-base /home/uylegia/ros2_ws/build/my_localization/build install --record /home/uylegia/ros2_ws/build/my_localization/install.log --single-version-externally-managed install_data --force
+[1.108s] running egg_info
+[1.120s] writing ../../build/my_localization/my_localization.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/my_localization/my_localization.egg-info/dependency_links.txt
+[1.121s] writing entry points to ../../build/my_localization/my_localization.egg-info/entry_points.txt
+[1.121s] writing requirements to ../../build/my_localization/my_localization.egg-info/requires.txt
+[1.121s] writing top-level names to ../../build/my_localization/my_localization.egg-info/top_level.txt
+[1.146s] reading manifest file '../../build/my_localization/my_localization.egg-info/SOURCES.txt'
+[1.147s] writing manifest file '../../build/my_localization/my_localization.egg-info/SOURCES.txt'
+[1.147s] running build
+[1.147s] running build_py
+[1.147s] creating /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+[1.147s] copying my_localization/fake_imu.py -> /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+[1.147s] copying my_localization/__init__.py -> /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+[1.147s] copying my_localization/fake_gps.py -> /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+[1.148s] running install
+[1.151s] running install_lib
+[1.163s] creating /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+[1.163s] copying /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization/fake_imu.py -> /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+[1.163s] copying /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization/__init__.py -> /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+[1.163s] copying /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization/fake_gps.py -> /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+[1.164s] byte-compiling /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization/fake_imu.py to fake_imu.cpython-310.pyc
+[1.164s] byte-compiling /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization/__init__.py to __init__.cpython-310.pyc
+[1.164s] byte-compiling /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization/fake_gps.py to fake_gps.cpython-310.pyc
+[1.164s] running install_data
+[1.164s] copying resource/my_localization -> /home/uylegia/ros2_ws/install/my_localization/share/ament_index/resource_index/packages
+[1.165s] copying package.xml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization
+[1.165s] copying launch/localization.launch.py -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+[1.165s] copying launch/fake_sensors.launch.py -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+[1.165s] copying config/navsat.yaml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+[1.165s] copying config/ekf.yaml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+[1.165s] running install_egg_info
+[1.178s] Copying ../../build/my_localization/my_localization.egg-info to /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization-0.0.1-py3.10.egg-info
+[1.178s] running install_scripts
+[1.271s] Installing fake_gps script to /home/uylegia/ros2_ws/install/my_localization/lib/my_localization
+[1.271s] Installing fake_imu script to /home/uylegia/ros2_ws/install/my_localization/lib/my_localization
+[1.271s] writing list of installed files to '/home/uylegia/ros2_ws/build/my_localization/install.log'
+[1.296s] Invoked command in '/home/uylegia/ros2_ws/src/my_localization' returned '0': PYTHONPATH=/home/uylegia/ros2_ws/build/my_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_localization build --build-base /home/uylegia/ros2_ws/build/my_localization/build install --record /home/uylegia/ros2_ws/build/my_localization/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,38 @@
+running develop
+Removing /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my-localization.egg-link (link to .)
+running egg_info
+writing ../../build/my_localization/my_localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_localization/my_localization.egg-info/dependency_links.txt
+writing entry points to ../../build/my_localization/my_localization.egg-info/entry_points.txt
+writing requirements to ../../build/my_localization/my_localization.egg-info/requires.txt
+writing top-level names to ../../build/my_localization/my_localization.egg-info/top_level.txt
+reading manifest file '../../build/my_localization/my_localization.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_localization/my_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+copying my_localization/fake_imu.py -> /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+copying my_localization/__init__.py -> /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+copying my_localization/fake_gps.py -> /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization
+running install
+running install_lib
+creating /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+copying /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization/fake_imu.py -> /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+copying /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization/__init__.py -> /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+copying /home/uylegia/ros2_ws/build/my_localization/build/lib/my_localization/fake_gps.py -> /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization
+byte-compiling /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization/fake_imu.py to fake_imu.cpython-310.pyc
+byte-compiling /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization/fake_gps.py to fake_gps.cpython-310.pyc
+running install_data
+copying resource/my_localization -> /home/uylegia/ros2_ws/install/my_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization
+copying launch/localization.launch.py -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+copying launch/fake_sensors.launch.py -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+copying config/navsat.yaml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+copying config/ekf.yaml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+running install_egg_info
+Copying ../../build/my_localization/my_localization.egg-info to /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my_localization-0.0.1-py3.10.egg-info
+running install_scripts
+Installing fake_gps script to /home/uylegia/ros2_ws/install/my_localization/lib/my_localization
+Installing fake_imu script to /home/uylegia/ros2_ws/install/my_localization/lib/my_localization
+writing list of installed files to '/home/uylegia/ros2_ws/build/my_localization/install.log'

@@ -1,0 +1,10 @@
+ublox_gps_node:
+  ros__parameters:
+    port: "/dev/ttyACM0"
+    baudrate: 115200
+    frame_id: "gps"
+    rate: 1.0
+    nav_rate: 1
+    enable_ppp: false
+    publish:
+      all: true

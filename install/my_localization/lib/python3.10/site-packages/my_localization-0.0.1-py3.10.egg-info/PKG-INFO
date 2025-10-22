@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: my_localization
+Version: 0.0.1
+Summary: Localization package (GPS + IMU + EKF + NavSat)
+Maintainer: uylegia
+Maintainer-email: uylegia@todo.todo
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

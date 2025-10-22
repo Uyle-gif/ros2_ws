@@ -1,0 +1,14 @@
+twist_mux:
+  ros__parameters:
+    output_topic: /cmd_vel
+
+    # Định dạng đúng chuẩn (kiểu map) cho ROS 2 Humble
+    topics:
+      manual:
+        topic: /cmd_vel/manual
+        timeout: 0.5
+        priority: 100
+      auto:
+        topic: /cmd_vel/auto
+        timeout: 0.5
+        priority: 50

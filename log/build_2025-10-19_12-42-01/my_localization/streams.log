@@ -1,0 +1,29 @@
+[0.592s] Invoking command in '/home/uylegia/ros2_ws/build/my_localization': PYTHONPATH=/home/uylegia/ros2_ws/build/my_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/uylegia/ros2_ws/build/my_localization/build --no-deps symlink_data
+[0.856s] running develop
+[1.006s] running egg_info
+[1.017s] creating my_localization.egg-info
+[1.017s] writing my_localization.egg-info/PKG-INFO
+[1.017s] writing dependency_links to my_localization.egg-info/dependency_links.txt
+[1.017s] writing entry points to my_localization.egg-info/entry_points.txt
+[1.017s] writing requirements to my_localization.egg-info/requires.txt
+[1.017s] writing top-level names to my_localization.egg-info/top_level.txt
+[1.017s] writing manifest file 'my_localization.egg-info/SOURCES.txt'
+[1.040s] reading manifest file 'my_localization.egg-info/SOURCES.txt'
+[1.041s] writing manifest file 'my_localization.egg-info/SOURCES.txt'
+[1.053s] running build_ext
+[1.053s] Creating /home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages/my-localization.egg-link (link to .)
+[1.054s] Installing fake_gps script to /home/uylegia/ros2_ws/install/my_localization/lib/my_localization
+[1.054s] Installing fake_imu script to /home/uylegia/ros2_ws/install/my_localization/lib/my_localization
+[1.054s] 
+[1.054s] Installed /home/uylegia/ros2_ws/build/my_localization
+[1.054s] running symlink_data
+[1.054s] creating /home/uylegia/ros2_ws/install/my_localization/share/ament_index/resource_index/packages
+[1.054s] symbolically linking /home/uylegia/ros2_ws/build/my_localization/resource/my_localization -> /home/uylegia/ros2_ws/install/my_localization/share/ament_index/resource_index/packages
+[1.054s] symbolically linking /home/uylegia/ros2_ws/build/my_localization/package.xml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization
+[1.054s] creating /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+[1.054s] symbolically linking /home/uylegia/ros2_ws/build/my_localization/launch/localization.launch.py -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+[1.054s] symbolically linking /home/uylegia/ros2_ws/build/my_localization/launch/fake_sensors.launch.py -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/launch
+[1.055s] creating /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+[1.055s] symbolically linking /home/uylegia/ros2_ws/build/my_localization/config/navsat.yaml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+[1.055s] symbolically linking /home/uylegia/ros2_ws/build/my_localization/config/ekf.yaml -> /home/uylegia/ros2_ws/install/my_localization/share/my_localization/config
+[1.085s] Invoked command in '/home/uylegia/ros2_ws/build/my_localization' returned '0': PYTHONPATH=/home/uylegia/ros2_ws/build/my_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/uylegia/ros2_ws/install/my_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/uylegia/ros2_ws/build/my_localization/build --no-deps symlink_data

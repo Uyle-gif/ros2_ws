@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/uylegia/ros2_ws/build/my_car_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uylegia/ros2_ws/install/my_localization:/opt/ros/humble /usr/bin/cmake --build /home/uylegia/ros2_ws/build/my_car_control -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target stanley_controller[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/stanley_controller.dir/src/stanley_controller.cpp.o[0m
+[3.881s] [01m[K/home/uylegia/ros2_ws/src/my_car_control/src/stanley_controller.cpp:[m[K In member function ‘[01m[Kvoid StanleyControllerNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.881s] [01m[K/home/uylegia/ros2_ws/src/my_car_control/src/stanley_controller.cpp:63:23:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[3.881s]    63 |     double yaw = tf2::[01;31m[KgetYaw[m[K(q);
+[3.882s]       |                       [01;31m[K^~~~~~[m[K
+[3.883s] gmake[2]: *** [CMakeFiles/stanley_controller.dir/build.make:76: CMakeFiles/stanley_controller.dir/src/stanley_controller.cpp.o] Error 1
+[3.883s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stanley_controller.dir/all] Error 2
+[3.883s] gmake: *** [Makefile:146: all] Error 2
+[3.884s] Invoked command in '/home/uylegia/ros2_ws/build/my_car_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/uylegia/ros2_ws/install/my_localization:/opt/ros/humble /usr/bin/cmake --build /home/uylegia/ros2_ws/build/my_car_control -- -j8 -l8
